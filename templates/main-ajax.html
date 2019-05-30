@@ -1,0 +1,73 @@
+<div id="wrapper">
+  <section>
+    <h3>Projects <span class="details">(click for details)</span>
+</h3>
+    <ul id="gallery">
+      <li>
+        <a href="#" data-toggle="modal" data-target="#setModal">
+          <img src="img/set-screenshot.jpg" alt="Multiplayer Game">
+          <p>Set Game</p>
+        </a>
+      </li>
+      <li>
+        <a href="#" data-toggle="modal" data-target="#polyModal">
+          <img src="img/polyglossia-2.jpg" alt="Polyglossia Films">
+          <p>Polyglossia Films</p>
+        </a>
+      </li>
+      <li>
+        <a href="#" data-toggle="modal" data-target="#dfModal">
+          <img src="img/whatsgood.jpg" alt="WhatsGood DF">
+          <p>Mexico City Street Food</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <div class="modal fade" id="setModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h3>SET</h3>
+          <p>Written using the Google App Engine framework, this website allows users to play the card game SET against friends in real-time.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="http://wrb-set-multi.appspot.com" target="_blank">Visit site</a>
+          <a href="https://github.com/wbruntra/wrb-set" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="polyModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h3>Polyglossia Films</h3>
+          <p>Site for displaying video and photography work of artist living in Japan. Incorporates content-management system via restricted-access portion of site so that artist can easily add content.</p>
+
+        </div>
+        <div class="modal-footer">
+          <a href="http://www.tomslemmons.com" target="_blank">Visit site</a>
+          <a href="https://github.com/wbruntra/wrb-toms-site" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="dfModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h3>WhatsGood</h3>
+          <p>Written in Node.js and incorporating Google Maps, the site and its accompanying <a href="https://github.com/wbruntra/form-sender" target="_blank">Android</a> app allows users to find and register street food locations in Mexico City.</p>
+
+        </div>
+        <div class="modal-footer">
+          <a href="https://pacific-castle-63467.herokuapp.com/" target="_blank">Visit site</a>
+          <a href="https://github.com/wbruntra/whatsgood" target="_blank">Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include 'footer.html' %}
+
+</div>
