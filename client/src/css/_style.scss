@@ -1,11 +1,13 @@
+@import './colors'
+
 body {
     margin:0;
-    background-color:#2b9464;
+    background-color: $light-green;
     text-align:center;
 }
 
 #top {
-    background-color:#12432d;
+    background-color: $dark-green;
     padding:1%;
     width:98%;
     height:100px;

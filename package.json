@@ -8,8 +8,7 @@
     "jquery": "^2.2.4",
     "jquery-ui": "^1.12.1",
     "normalize.css": "^8.0.1",
-    "qs": "^6.7.0",
-    "webpack": "^4.32.2"
+    "qs": "^6.7.0"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",

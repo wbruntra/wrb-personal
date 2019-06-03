@@ -82,8 +82,5 @@ class AjaxHandler(Handler):
         self.response.out.write(msg)
 
 app = webapp2.WSGIApplication([
-    ('/', MainHandler),
-    ('/contact',ContactHandler),
-    ('/about',AboutHandler),
-    ('/ajax',AjaxHandler)
+    ('/form', ContactHandler)
 ], debug=True)

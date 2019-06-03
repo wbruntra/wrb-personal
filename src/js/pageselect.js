@@ -34,7 +34,6 @@ const replacePage = msg => {
 };
 
 const getNewPage = page => {
-  console.log(page);
   const options = {
     method: 'POST',
     headers: { 'content-type': 'application/x-www-form-urlencoded' },
@@ -66,7 +65,8 @@ document.addEventListener('DOMContentLoaded', function() {
     .html()
     .split('|')[1]
     .slice(1);
-  $('#' + title + ' a').addClass('selected');
+    
+  document.querySelector(`#${title} a`).classList.add('selected');    
   const $internalLinks = $('a[href^="/"]');
 
   $internalLinks.click(function(e) {
